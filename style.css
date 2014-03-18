@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  /*background: url("../../../Downloads/dot-mask-80.png") repeat;*/
+}
+
+#now-playing {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  padding: 200px 130px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#lightboard {
+  z-index: 999;
+}
+
+#backboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+  background-color: white;
+}
+
+#controls {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+#player {
+  display: none;
+}
+
+.preset {
+  width: 50px;
+  height: 35px;
+  float: left;
+  text-align: center;
+  background-color: grey;
+  border: 1px solid black;
+}
